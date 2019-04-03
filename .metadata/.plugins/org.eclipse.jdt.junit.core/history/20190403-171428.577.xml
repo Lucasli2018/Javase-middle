@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MybatisDemo" project="demo" tests="3" started="3" failures="0" errors="1" ignored="0">
+  <testsuite name="com.lucas.javase.mybatis.introduction.MybatisDemo" time="99.357">
+    <testcase name="testFindUserListByName" classname="com.lucas.javase.mybatis.introduction.MybatisDemo" time="47.669"/>
+    <testcase name="testInsertUser" classname="com.lucas.javase.mybatis.introduction.MybatisDemo" time="4.706">
+      <error>org.apache.ibatis.exceptions.PersistenceException: &#13;
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'sex' in 'field list'&#13;
+### The error may involve test.insertUser-Inline&#13;
+### The error occurred while setting parameters&#13;
+### SQL: INSERT INTO user (username,sex,birthday,address) VALUES (?,?,?,?)&#13;
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'sex' in 'field list'&#13;
+	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)&#13;
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:200)&#13;
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:185)&#13;
+	at com.lucas.javase.mybatis.introduction.MybatisDemo.testInsertUser(MybatisDemo.java:83)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#13;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'sex' in 'field list'&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:389)&#13;
+	at com.mysql.jdbc.Util.getInstance(Util.java:372)&#13;
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:980)&#13;
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3835)&#13;
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3771)&#13;
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)&#13;
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)&#13;
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2535)&#13;
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1911)&#13;
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1203)&#13;
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:46)&#13;
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)&#13;
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)&#13;
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)&#13;
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)&#13;
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:198)&#13;
+	... 26 more&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testFindUserById" classname="com.lucas.javase.mybatis.introduction.MybatisDemo" time="46.982"/>
+  </testsuite>
+</testrun>
