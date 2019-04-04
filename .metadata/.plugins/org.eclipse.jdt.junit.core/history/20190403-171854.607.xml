@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="MybatisDemo" project="demo" tests="3" started="3" failures="0" errors="0" ignored="0">
-  <testsuite name="com.lucas.javase.mybatis.introduction.MybatisDemo" time="1.284">
-    <testcase name="testFindUserListByName" classname="com.lucas.javase.mybatis.introduction.MybatisDemo" time="1.147"/>
-    <testcase name="testInsertUser" classname="com.lucas.javase.mybatis.introduction.MybatisDemo" time="0.06"/>
-    <testcase name="testFindUserById" classname="com.lucas.javase.mybatis.introduction.MybatisDemo" time="0.077"/>
-  </testsuite>
-</testrun>

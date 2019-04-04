@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  -->
+<configuration>
+	<Loggers>
+		<root level="info">
+			<AppenderRef ref="stdout" level="info"/>
+			<AppenderRef ref="all" level="info"/>
+		</root>
+	</Loggers>
+	<Appenders>
+		<Console name="stdout" target="SYSTEM_OUT">
+			<PatternLayout pattern="%d %p [%t]-->: %m%n"/>
+		</Console>
+		<RollingFile name="all" bufferedIO="true" fileName="log/all.log" filePattern="log/all.%i.log.gz">
+			<PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{36}%n%m%n%n" />
+			<Policies>
+				<SizeBasedTriggeringPolicy size="1 MB"/>
+			</Policies>
+			<DefaultRolloverStrategy max="10"/>
+		</RollingFile>
+	</Appenders>
+</configuration>

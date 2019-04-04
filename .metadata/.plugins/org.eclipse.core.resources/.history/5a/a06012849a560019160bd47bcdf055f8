@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  -->
+<configuration>
+	<loggers>
+		<root level="info">
+			<appenderRef ref="stdout"></appenderRef>
+		</root>
+	</loggers>
+	<appenders>
+		<console name="stdout">
+			<patternLayout pattern="%d %p [%t]: %m%n"></patternLayout>
+		</console>
+	</appenders>
+</configuration>

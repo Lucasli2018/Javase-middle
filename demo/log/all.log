@@ -1,0 +1,90 @@
+04-04 12:24:35 [main] INFO  com.lucas.javase.mybatis.demo.App
+日志--->org.apache.commons.logging.Log
+
+2019-04-04 12:25:01 [main] INFO  com.lucas.javase.mybatis.demo.App
+日志--->org.apache.commons.logging.Log
+
+2019-04-04 12:25:16 [main] INFO  com.lucas.javase.mybatis.demo.App
+日志 org.apache.commons.logging.Log
+
+2019-04-04 12:25:35 [main] INFO  com.lucas.javase.mybatis.demo.App
+日志 org.apache.commons.logging.Log
+
+2019-04-04 12:26:06 [main] INFO  com.lucas.javase.mybatis.demo.App
+日志 org.apache.commons.logging.Log
+
+2019-04-04 12:26:06 [main] ERROR com.lucas.javase.mybatis.demo.App
+写一个错误error
+
+2019-04-04 12:26:51 [main] INFO  com.lucas.javase.mybatis.demo.App
+日志 org.apache.commons.logging.Log
+
+2019-04-04 12:26:51 [main] ERROR com.lucas.javase.mybatis.demo.App
+写一个错误error
+
+2019-04-04 12:27:37 [main] INFO  com.lucas.javase.mybatis.demo.App
+日志 org.apache.commons.logging.Log
+
+2019-04-04 12:27:37 [main] ERROR com.lucas.javase.mybatis.demo.App
+写一个错误error
+
+2019-04-04 12:27:48 [main] INFO  com.lucas.javase.mybatis.demo.App
+日志 org.apache.commons.logging.Log
+
+2019-04-04 12:27:48 [main] ERROR com.lucas.javase.mybatis.demo.App
+写一个错误error
+
+2019-04-04 12:28:23 [main] INFO  com.lucas.javase.mybatis.demo.App
+日志 org.apache.commons.logging.Log
+
+2019-04-04 12:28:23 [main] ERROR com.lucas.javase.mybatis.demo.App
+写一个错误error
+
+2019-04-04 12:28:44 [main] INFO  com.lucas.javase.mybatis.demo.App
+日志 org.apache.commons.logging.Log
+
+2019-04-04 12:28:44 [main] ERROR com.lucas.javase.mybatis.demo.App
+写一个错误error
+
+2019-04-04 12:29:02 [main] INFO  com.lucas.javase.mybatis.demo.App
+日志 org.apache.commons.logging.Log
+
+2019-04-04 12:29:02 [main] ERROR com.lucas.javase.mybatis.demo.App
+写一个错误error
+
+2019-04-04 12:40:53 [main] INFO  com.lucas.javase.mybatis.demo.App
+日志 org.apache.commons.logging.Log
+
+2019-04-04 12:40:53 [main] ERROR com.lucas.javase.mybatis.demo.App
+写一个错误error
+
+2019-04-04 12:41:15 [main] INFO  com.lucas.javase.mybatis.demo.App
+日志 org.apache.commons.logging.Log
+
+2019-04-04 12:41:15 [main] ERROR com.lucas.javase.mybatis.demo.App
+写一个错误error
+
+2019-04-04 12:43:22 [main] INFO  com.lucas.javase.mybatis.demo.App
+日志 org.apache.commons.logging.Log
+
+2019-04-04 12:43:22 [main] ERROR com.lucas.javase.mybatis.demo.App
+写一个错误error
+
+2019-04-04 12:43:44 [main] INFO  com.lucas.javase.mybatis.demo.App
+日志 org.apache.commons.logging.Log
+
+2019-04-04 12:43:44 [main] ERROR com.lucas.javase.mybatis.demo.App
+写一个错误error
+
+2019-04-04 12:44:04 [main] INFO  com.lucas.javase.mybatis.demo.App
+日志 org.apache.commons.logging.Log
+
+2019-04-04 12:44:04 [main] ERROR com.lucas.javase.mybatis.demo.App
+写一个错误error
+
+2019-04-04 12:44:24 [main] INFO  com.lucas.javase.mybatis.demo.App
+日志 org.apache.commons.logging.Log
+
+2019-04-04 12:44:24 [main] ERROR com.lucas.javase.mybatis.demo.App
+写一个错误error
+

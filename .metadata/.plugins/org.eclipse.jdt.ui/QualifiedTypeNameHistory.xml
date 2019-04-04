@@ -1,2 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.junit.Before"/>
+<fullyQualifiedTypeName name="org.apache.ibatis.logging.Log"/>
+<fullyQualifiedTypeName name="org.apache.ibatis.logging.LogFactory"/>
+<fullyQualifiedTypeName name="com.lucas.javase.mybatis.introduction.JdbcDemo"/>
+<fullyQualifiedTypeName name="com.lucas.javase.mybatis.introduction.po.User"/>
+<fullyQualifiedTypeName name="org.apache.commons.logging.LogFactory"/>
+<fullyQualifiedTypeName name="org.apache.commons.logging.Log"/>
+</qualifiedTypeNameHistroy>

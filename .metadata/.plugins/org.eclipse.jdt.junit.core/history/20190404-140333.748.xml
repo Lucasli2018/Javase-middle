@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MybatisDemo (1)" project="demo" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.lucas.javase.jdbc.demo.MybatisDemo" time="0.983">
+    <testcase name="testFindUserById" classname="com.lucas.javase.jdbc.demo.MybatisDemo" time="0.983"/>
+  </testsuite>
+</testrun>

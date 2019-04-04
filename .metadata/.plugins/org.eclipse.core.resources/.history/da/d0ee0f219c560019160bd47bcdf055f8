@@ -1,0 +1,15 @@
+package com.lucas.javase.jdbc.demo;
+
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+import org.junit.Test;
+
+public class MybatisDemo {
+
+	static final Log log=LogFactory.getLog(MybatisDemo.class);
+	
+	@Test
+	public void testFindUserById(){
+		
+	}
+}

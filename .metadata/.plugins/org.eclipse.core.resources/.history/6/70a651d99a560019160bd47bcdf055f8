@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  -->
+<configuration>
+	<loggers>
+		<root level="info">
+			<appenderRef ref="console" level="info"></appenderRef>
+			<appenderRef ref="all" level="info"></appenderRef>
+		</root>
+	</loggers>
+	<appenders>
+		<console name="console">
+			<patternLayout pattern="%d %p [%t]: %m%n"></patternLayout>
+		</console>
+		<File name="all" fileName="log/jdbc.all.log"></File>
+	</appenders>
+</configuration>

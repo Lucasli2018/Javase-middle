@@ -3,12 +3,16 @@
 <configuration>
 	<loggers>
 		<root level="info">
-			<appenderRef ref="stdout"></appenderRef>
+			<appenderRef ref="console" level="info"></appenderRef>
+			<appenderRef ref="all" level="info"></appenderRef>
 		</root>
 	</loggers>
 	<appenders>
-		<console name="stdout">
-			<patternLayout pattern="%d %p [%t]-->: %m%n"></patternLayout>
+		<console name="console">
+			<patternLayout pattern="%d %p [%t]: %m%n"></patternLayout>
 		</console>
+		<File name="all" fileName="log/jdbc.all.log">
+			<patternLayout pattern="%d %level [%t]: %m%n%n"></patternLayout>
+		</File>
 	</appenders>
 </configuration>

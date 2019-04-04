@@ -1,0 +1,40 @@
+package com.lucas.javase.jdbc.demo;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+import org.junit.Test;
+
+
+public class JdbcDemo {
+	
+	static final Log log=LogFactory.getLog(JdbcDemo.class);
+	static final String DRIVER="com.mysql.jdbc.Driver";
+	static final String DATABASE="jdbc:mysql://192.100.99.185:3306/casco_db?characterEncoding=utf-8";
+	static final String USERNAME="root";
+	static final String PASSWORD="root";
+
+	@Test
+	public void testFindUserById() throws Exception{
+		//加载数据库驱动
+		log.info("加载数据库驱动");
+		Class.forName(DRIVER);
+		
+		//使用驱动建立连接
+		log.info("使用驱动建立连接");
+		Connection conn=DriverManager.getConnection(DATABASE, USERNAME, PASSWORD);
+		
+		//预处理sql
+		String sql="select * from user where id = ?";
+		log.info("预处理sql");
+		PreparedStatement ps=conn.prepareStatement(sql);
+		ps.setString(1, "1");
+		
+		//执行操作
+		
+		//释放资源
+	}
+}

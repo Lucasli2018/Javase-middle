@@ -1,0 +1,334 @@
+2019-04-04 13:31:19,624 [main] INFO: 加载数据库驱动
+
+2019-04-04 13:31:19,634 [main] INFO: 使用驱动建立连接
+
+2019-04-04 13:31:19,951 [main] INFO: 预处理sql
+
+2019-04-04 13:31:19,961 [main] INFO: 执行操作
+
+2019-04-04 13:31:19,993 [main] INFO: 1 lucas
+
+2019-04-04 13:31:19,993 [main] INFO: 释放资源
+
+2019-04-04 13:32:13,266 INFO [main]: 加载数据库驱动
+
+2019-04-04 13:32:13,274 INFO [main]: 通过驱动管理类获取数据库链接connection = DriverManager
+
+2019-04-04 13:32:16,597 INFO [main]: 定义sql语句 ?表示占位符
+
+2019-04-04 13:32:16,607 INFO [main]: 设置参数，第一个参数为 sql 语句中参数的序号（从 1 开始），第二个参数为设置的值
+
+2019-04-04 13:32:16,607 INFO [main]: 向数据库发出 sql 执行查询，查询出结果集
+
+2019-04-04 13:32:22,786 INFO [main]: 加载数据库驱动
+
+2019-04-04 13:32:22,795 INFO [main]: 使用驱动建立连接
+
+2019-04-04 13:32:23,328 INFO [main]: 预处理sql
+
+2019-04-04 13:32:23,361 INFO [main]: 执行操作
+
+2019-04-04 13:32:23,384 INFO [main]: 1 lucas
+
+2019-04-04 13:32:23,384 INFO [main]: 释放资源
+
+2019-04-04 13:32:57,750 INFO [main]: 加载数据库驱动
+
+2019-04-04 13:32:57,759 INFO [main]: 使用驱动建立连接
+
+2019-04-04 13:32:58,055 INFO [main]: 预处理sql
+
+2019-04-04 13:32:58,067 INFO [main]: 执行操作
+
+2019-04-04 13:32:58,072 INFO [main]: 1 lucas
+
+2019-04-04 13:32:58,072 INFO [main]: 释放资源
+
+2019-04-04 13:33:20,753 INFO [main]: 加载数据库驱动
+
+2019-04-04 13:33:20,761 INFO [main]: 使用驱动建立连接
+
+2019-04-04 13:33:21,084 INFO [main]: 预处理sql
+
+2019-04-04 13:33:21,095 INFO [main]: 执行操作
+
+2019-04-04 13:33:21,099 INFO [main]: 1 lucas
+
+2019-04-04 13:33:21,099 INFO [main]: 释放资源
+
+2019-04-04 13:50:28,097 INFO [main]: 获取全局配置文件路径
+
+2019-04-04 13:50:28,100 INFO [main]: 加载资源（全局配置，其他配置，mapper.xml等）
+
+2019-04-04 13:50:28,109 INFO [main]: 使用资源创建SqlSessoinFactory工厂，构建者模式
+
+2019-04-04 13:50:28,800 INFO [main]: 工厂方法实例化SqlSession接口
+
+2019-04-04 13:50:28,805 INFO [main]: 调用SqlSession接口方法，操作数据库
+
+2019-04-04 13:50:40,708 INFO [main]: 获取全局配置文件路径
+
+2019-04-04 13:50:40,711 INFO [main]: 加载资源（全局配置，其他配置，mapper.xml等）
+
+2019-04-04 13:51:38,002 INFO [main]: 获取全局配置文件路径
+
+2019-04-04 13:51:38,005 INFO [main]: 加载资源（全局配置，其他配置，mapper.xml等）
+
+2019-04-04 13:51:38,007 INFO [main]: 使用资源创建SqlSessoinFactory工厂，构建者模式
+
+2019-04-04 13:51:38,231 INFO [main]: 工厂方法实例化SqlSession接口
+
+2019-04-04 13:51:38,236 INFO [main]: 调用SqlSession接口方法，操作数据库
+
+2019-04-04 13:53:12,420 INFO [main]: 获取全局配置文件路径
+
+2019-04-04 13:53:12,424 INFO [main]: 加载资源（全局配置，其他配置，mapper.xml等）
+
+2019-04-04 13:53:12,427 ERROR [main]: Exception
+
+java.io.IOException: Could not find resource demo/SqlMapConfig2.xml
+	at org.apache.ibatis.io.Resources.getResourceAsStream(Resources.java:114) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.io.Resources.getResourceAsStream(Resources.java:100) ~[mybatis-3.4.6.jar:3.4.6]
+	at com.lucas.javase.jdbc.demo.MybatisDemo.init(MybatisDemo.java:31) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_91]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_91]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_91]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_91]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192) [.cp/:?]
+2019-04-04 13:53:12,436 INFO [main]: 工厂方法实例化SqlSession接口
+
+2019-04-04 13:55:08,694 INFO [main]: 获取全局配置文件路径
+
+2019-04-04 13:55:08,697 INFO [main]: 加载资源（全局配置，其他配置，mapper.xml等）
+
+2019-04-04 13:55:08,699 INFO [main]: 使用资源创建SqlSessoinFactory工厂，构建者模式
+
+2019-04-04 13:55:08,951 INFO [main]: 工厂方法实例化SqlSession接口
+
+2019-04-04 13:55:08,955 INFO [main]: 调用SqlSession接口方法，操作数据库
+
+2019-04-04 13:55:08,956 ERROR [main]: Exception
+
+org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: java.lang.IllegalArgumentException: Mapped Statements collection does not contain value for test.findUserByName
+### Cause: java.lang.IllegalArgumentException: Mapped Statements collection does not contain value for test.findUserByName
+	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:150) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:141) ~[mybatis-3.4.6.jar:3.4.6]
+	at com.lucas.javase.jdbc.demo.MybatisDemo.testFindUserById(MybatisDemo.java:52) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_91]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_91]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_91]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_91]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192) [.cp/:?]
+Caused by: java.lang.IllegalArgumentException: Mapped Statements collection does not contain value for test.findUserByName
+	at org.apache.ibatis.session.Configuration$StrictMap.get(Configuration.java:888) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.session.Configuration.getMappedStatement(Configuration.java:721) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.session.Configuration.getMappedStatement(Configuration.java:714) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147) ~[mybatis-3.4.6.jar:3.4.6]
+	... 26 more
+2019-04-04 13:55:08,963 INFO [main]: 释放资源
+
+2019-04-04 13:59:52,997 INFO [main]: 获取全局配置文件路径
+
+2019-04-04 13:59:53,000 INFO [main]: 加载资源（全局配置，其他配置，mapper.xml等）
+
+2019-04-04 13:59:53,001 INFO [main]: 使用资源创建SqlSessoinFactory工厂，构建者模式
+
+2019-04-04 13:59:53,198 INFO [main]: 工厂方法实例化SqlSession接口
+
+2019-04-04 13:59:53,206 INFO [main]: 调用SqlSession接口方法，操作数据库
+
+2019-04-04 13:59:53,208 ERROR [main]: Exception
+
+org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: java.lang.IllegalArgumentException: Mapped Statements collection does not contain value for test.findUserByName
+### Cause: java.lang.IllegalArgumentException: Mapped Statements collection does not contain value for test.findUserByName
+	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:150) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:141) ~[mybatis-3.4.6.jar:3.4.6]
+	at com.lucas.javase.jdbc.demo.MybatisDemo.testFindUserById(MybatisDemo.java:52) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_91]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_91]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_91]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_91]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192) [.cp/:?]
+Caused by: java.lang.IllegalArgumentException: Mapped Statements collection does not contain value for test.findUserByName
+	at org.apache.ibatis.session.Configuration$StrictMap.get(Configuration.java:888) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.session.Configuration.getMappedStatement(Configuration.java:721) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.session.Configuration.getMappedStatement(Configuration.java:714) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147) ~[mybatis-3.4.6.jar:3.4.6]
+	... 26 more
+2019-04-04 13:59:53,220 INFO [main]: 释放资源
+
+2019-04-04 14:00:50,448 INFO [main]: 获取全局配置文件路径
+
+2019-04-04 14:00:50,451 INFO [main]: 加载资源（全局配置，其他配置，mapper.xml等）
+
+2019-04-04 14:00:50,454 INFO [main]: 使用资源创建SqlSessoinFactory工厂，构建者模式
+
+2019-04-04 14:00:50,709 INFO [main]: 工厂方法实例化SqlSession接口
+
+2019-04-04 14:00:50,714 INFO [main]: 调用SqlSession接口方法，操作数据库
+
+2019-04-04 14:00:50,715 ERROR [main]: Exception
+
+org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: java.lang.IllegalArgumentException: Mapped Statements collection does not contain value for test.findUserByName
+### Cause: java.lang.IllegalArgumentException: Mapped Statements collection does not contain value for test.findUserByName
+	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:150) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:141) ~[mybatis-3.4.6.jar:3.4.6]
+	at com.lucas.javase.jdbc.demo.MybatisDemo.testFindUserById(MybatisDemo.java:52) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_91]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_91]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_91]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_91]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192) [.cp/:?]
+Caused by: java.lang.IllegalArgumentException: Mapped Statements collection does not contain value for test.findUserByName
+	at org.apache.ibatis.session.Configuration$StrictMap.get(Configuration.java:888) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.session.Configuration.getMappedStatement(Configuration.java:721) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.session.Configuration.getMappedStatement(Configuration.java:714) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147) ~[mybatis-3.4.6.jar:3.4.6]
+	... 26 more
+2019-04-04 14:00:50,722 INFO [main]: 释放资源
+
+2019-04-04 14:01:46,076 INFO [main]: 获取全局配置文件路径
+
+2019-04-04 14:01:46,078 INFO [main]: 加载资源（全局配置，其他配置，mapper.xml等）
+
+2019-04-04 14:01:46,081 INFO [main]: 使用资源创建SqlSessoinFactory工厂，构建者模式
+
+2019-04-04 14:01:46,254 INFO [main]: 工厂方法实例化SqlSession接口
+
+2019-04-04 14:01:46,263 INFO [main]: 调用SqlSession接口方法，操作数据库
+
+2019-04-04 14:01:46,879 INFO [main]: User [id=1, username=lucas, birthday=null, sex=null, address=null]
+
+2019-04-04 14:01:46,880 INFO [main]: User [id=4, username=alice, birthday=null, sex=null, address=null]
+
+2019-04-04 14:01:46,880 INFO [main]: User [id=10, username=lucas.li, birthday=1994-10, sex=男, address=casco]
+
+2019-04-04 14:01:46,880 INFO [main]: User [id=12, username=lucas.li, birthday=1994-10, sex=男, address=casco]
+
+2019-04-04 14:01:46,880 INFO [main]: User [id=14, username=lucas.li, birthday=1994-10, sex=男, address=casco]
+
+2019-04-04 14:01:46,880 INFO [main]: 释放资源
+
+2019-04-04 14:03:33,755 INFO [main]: 获取全局配置文件路径
+
+2019-04-04 14:03:33,758 INFO [main]: 加载资源（全局配置，其他配置，mapper.xml等）
+
+2019-04-04 14:03:33,760 INFO [main]: 使用资源创建SqlSessoinFactory工厂，构建者模式
+
+2019-04-04 14:03:33,953 INFO [main]: 工厂方法实例化SqlSession接口
+
+2019-04-04 14:03:33,962 INFO [main]: 调用SqlSession接口方法，操作数据库
+
+2019-04-04 14:03:34,655 INFO [main]: User [id=4, username=alice, birthday=null, sex=null, address=null]
+
+2019-04-04 14:03:34,655 INFO [main]: 释放资源
+
+2019-04-04 14:03:46,533 INFO [main]: 获取全局配置文件路径
+
+2019-04-04 14:03:46,535 INFO [main]: 加载资源（全局配置，其他配置，mapper.xml等）
+
+2019-04-04 14:03:46,537 INFO [main]: 使用资源创建SqlSessoinFactory工厂，构建者模式
+
+2019-04-04 14:03:46,749 INFO [main]: 工厂方法实例化SqlSession接口
+
+2019-04-04 14:03:46,758 INFO [main]: 调用SqlSession接口方法，操作数据库
+
+2019-04-04 14:03:47,736 INFO [main]: User [id=4, username=alice, birthday=null, sex=null, address=null]
+
+2019-04-04 14:03:47,738 INFO [main]: 释放资源
+
+2019-04-04 14:04:06,964 INFO [main]: 获取全局配置文件路径
+
+2019-04-04 14:04:06,966 INFO [main]: 加载资源（全局配置，其他配置，mapper.xml等）
+
+2019-04-04 14:04:06,968 INFO [main]: 使用资源创建SqlSessoinFactory工厂，构建者模式
+
+2019-04-04 14:04:07,139 INFO [main]: 工厂方法实例化SqlSession接口
+
+2019-04-04 14:04:07,145 INFO [main]: 调用SqlSession接口方法，操作数据库
+
+2019-04-04 14:04:07,844 INFO [main]: User [id=4, username=alice, birthday=null, sex=null, address=null]
+
+2019-04-04 14:04:07,844 INFO [main]: 释放资源
+
