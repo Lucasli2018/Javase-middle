@@ -33,7 +33,7 @@ public class JdbcDemo {
 			String sql="select * from user where id = ?";
 			log.info("预处理sql");
 			PreparedStatement ps=conn.prepareStatement(sql);
-			ps.setString(1, "1");
+			ps.setString(1, "34");
 			//ps.setInt(1, 1);
 			
 			//执行操作
