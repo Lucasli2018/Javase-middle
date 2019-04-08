@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="UserDaoTest" project="demo" tests="2" started="2" failures="0" errors="0" ignored="0">
-  <testsuite name="com.lucas.javase.mybatis.dao.test.UserDaoTest" time="0.781">
-    <testcase name="testInsertUser" classname="com.lucas.javase.mybatis.dao.test.UserDaoTest" time="0.64"/>
-    <testcase name="testFindUserById" classname="com.lucas.javase.mybatis.dao.test.UserDaoTest" time="0.141"/>
-  </testsuite>
-</testrun>

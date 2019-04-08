@@ -1,0 +1,48 @@
+package com.lucas.javase.collection.Equals;
+
+import java.util.Objects;
+
+public class Person {
+
+	private final String name;
+	private final int age;
+
+	public Person(String name, int age) {
+		this.name = name;
+		this.age = age;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	@Override
+	public String toString() {
+		return "(Person: " + name + ", " + age + ")";
+	}
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + age;
+		result = prime * result + ((name == null) ? 0 : name.hashCode());
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if(obj instanceof Person){
+			Person p=(Person) obj;
+			return Objects.equals(this.name, p.name)&&this.age==p.age;
+		}
+		return false;
+	}
+	
+}
