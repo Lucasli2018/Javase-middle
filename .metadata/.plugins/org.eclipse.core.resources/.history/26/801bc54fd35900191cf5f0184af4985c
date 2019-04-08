@@ -72,7 +72,6 @@ public class AllTests {
 			user.setSex("男生");
 			user.setUsername("詹丹");
 			int r=mapper.insertUser(user);
-			sqlSession.commit();
 			log.info("插入数据数量："+r);
 		} catch (Exception e) {
 			log.error("Exception",e);

@@ -2896,3 +2896,59 @@ org.apache.ibatis.binding.BindingException: Type interface com.lucas.javase.myba
 
 2019-04-08 15:42:02,727 INFO [main]: 释放
 
+2019-04-08 15:52:30,870 INFO [main]: 全局配置路径
+
+2019-04-08 15:52:30,873 INFO [main]: 加载配置文件
+
+2019-04-08 15:52:30,874 INFO [main]: 构建者模式获取SqlSessionFactory
+
+2019-04-08 15:52:31,100 INFO [main]: 获取SqlSession
+
+2019-04-08 15:52:31,541 INFO [main]: 插入数据数量：1
+
+2019-04-08 15:52:31,542 INFO [main]: 数据库操作
+
+2019-04-08 15:52:31,542 INFO [main]: 释放
+
+2019-04-08 15:52:31,543 INFO [main]: 全局配置路径
+
+2019-04-08 15:52:31,543 INFO [main]: 加载配置文件
+
+2019-04-08 15:52:31,543 INFO [main]: 构建者模式获取SqlSessionFactory
+
+2019-04-08 15:52:31,560 INFO [main]: 获取SqlSession
+
+2019-04-08 15:52:31,664 INFO [main]: User [id=4, username=alice, birthday=null, sex=null, address=null]
+
+2019-04-08 15:52:31,664 INFO [main]: 数据库操作
+
+2019-04-08 15:52:31,664 INFO [main]: 释放
+
+2019-04-08 15:52:57,652 INFO [main]: 全局配置路径
+
+2019-04-08 15:52:57,655 INFO [main]: 加载配置文件
+
+2019-04-08 15:52:57,657 INFO [main]: 构建者模式获取SqlSessionFactory
+
+2019-04-08 15:52:57,942 INFO [main]: 获取SqlSession
+
+2019-04-08 15:52:59,110 INFO [main]: 插入数据数量：1
+
+2019-04-08 15:52:59,110 INFO [main]: 数据库操作
+
+2019-04-08 15:52:59,111 INFO [main]: 释放
+
+2019-04-08 15:52:59,113 INFO [main]: 全局配置路径
+
+2019-04-08 15:52:59,113 INFO [main]: 加载配置文件
+
+2019-04-08 15:52:59,115 INFO [main]: 构建者模式获取SqlSessionFactory
+
+2019-04-08 15:52:59,173 INFO [main]: 获取SqlSession
+
+2019-04-08 15:52:59,350 INFO [main]: User [id=4, username=alice, birthday=null, sex=null, address=null]
+
+2019-04-08 15:52:59,351 INFO [main]: 数据库操作
+
+2019-04-08 15:52:59,351 INFO [main]: 释放
+

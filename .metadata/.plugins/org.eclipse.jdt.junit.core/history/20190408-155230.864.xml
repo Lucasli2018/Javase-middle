@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="AllTests" project="demo" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.lucas.javase.mybatis.annotation.AllTests" time="0.812">
+    <testcase name="testInsertUser" classname="com.lucas.javase.mybatis.annotation.AllTests" time="0.648"/>
+    <testcase name="testFindUserById" classname="com.lucas.javase.mybatis.annotation.AllTests" time="0.164"/>
+  </testsuite>
+</testrun>
