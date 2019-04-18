@@ -1,7 +1,0 @@
-package com.lucas.javase.jdbc.demo;
-
-public class Person {
-	String id;
-	String name;
-	String sex;
-}

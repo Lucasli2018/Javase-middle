@@ -1,0 +1,14 @@
+package com.lucas.javase.mavendemo;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class AppTest {
+
+	@Test
+	public void testSum() {
+		fail("Not yet implemented");
+	}
+
+}

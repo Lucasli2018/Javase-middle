@@ -1,0 +1,23 @@
+package com.lucas.javase.mavendemo;
+
+public class CountThread extends Thread{
+	public static void count(){
+		Thread t=new CountThread();
+		t.start();
+	}
+
+	@Override
+	public void run() {
+		int count=5;
+		for (int i = 0; i < count; i++) {
+			try {
+				Thread.sleep(1000);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+			System.out.println("count :"+(i+1));
+		}
+	}
+	
+	
+}

@@ -1,7 +1,0 @@
-package com.lucas.javase.jdbc.demo;
-
-public class Person {
-	private int id;//不声明权限修饰符，默认为package权限
-	String name;
-	String sex;
-}

@@ -19,7 +19,7 @@ public class Main {
 		Pair<String>[] ps = (Pair<String>[]) new Pair[2];//泛型数组需要强制转型
 		ps[0] = new Pair<>("a", "b");
 		ps[1] = new Pair<>("x", "y");
-		System.out.println(Arrays.toString(ps));
+		System.out.println(Arrays.deepToString(ps));
 	}
 
 }

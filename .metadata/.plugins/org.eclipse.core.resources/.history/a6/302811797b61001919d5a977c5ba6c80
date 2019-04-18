@@ -1,0 +1,19 @@
+package com.lucas.javase.mavendemo;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args ) throws InterruptedException
+    {
+        System.out.println( "Hello World!" );
+        CountThread.count();
+        System.out.println("over");
+    }
+    
+    public static int sum(int a,int b){
+    	return a+b;
+    }
+}

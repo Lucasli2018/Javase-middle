@@ -1,0 +1,24 @@
+package com.lucas.javase.mavendemo;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+        Thread t=new CountThread();
+        t.start();
+        try {
+			t.join();
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+    }
+    
+    public static int sum(int a,int b){
+    	return a+b;
+    }
+}

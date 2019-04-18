@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Built-By: 50632
+Created-By: Apache Maven 3.6.0
+Build-Jdk: 1.8.0_91
+Main-Class: com.lucas.javase.mavendemo.App
