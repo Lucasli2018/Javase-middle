@@ -3508,3 +3508,126 @@
 2019-04-19 16:14:18,403 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2019-04-19 16:14:18,405 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-04-19 16:14:18,405 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\github\Javase-middle\maven_mybatis\src\test\resources
+2019-04-22 13:43:01,599 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 13:43:01,623 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 11 resources
+2019-04-22 13:43:01,638 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 13:43:01,639 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-22 13:43:05,437 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 13:43:05,439 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-04-22 13:43:05,586 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 13:43:05,587 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\github\Javase-middle\maven_mybatis\src\test\resources
+2019-04-22 13:43:06,768 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 13:43:06,770 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-22 13:43:06,772 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 13:43:06,773 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\github\Javase-middle\mavenbmi\src\test\resources
+2019-04-22 13:43:06,998 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 13:43:06,999 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-22 13:43:07,002 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 13:43:07,002 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\github\Javase-middle\mavendemo\src\test\resources
+2019-04-22 14:52:49,712 [Worker-35] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.lucas.javase:mavendemo:0.0.1-SNAPSHOT @ D:\github\Javase-middle\mavendemo\pom.xml.
+2019-04-22 14:53:00,734 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.9.0/jackson-dataformat-xml-2.9.0.pom
+2019-04-22 14:53:01,028 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.9.0/jackson-dataformat-xml-2.9.0.pom
+2019-04-22 14:53:01,228 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/com/fasterxml/jackson/jackson-bom/2.9.0/jackson-bom-2.9.0.pom
+2019-04-22 14:53:01,541 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/com/fasterxml/jackson/jackson-bom/2.9.0/jackson-bom-2.9.0.pom
+2019-04-22 14:53:01,749 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/com/fasterxml/jackson/jackson-parent/2.9.0/jackson-parent-2.9.0.pom
+2019-04-22 14:53:01,924 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/com/fasterxml/jackson/jackson-parent/2.9.0/jackson-parent-2.9.0.pom
+2019-04-22 14:53:02,125 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/com/fasterxml/oss-parent/28/oss-parent-28.pom
+2019-04-22 14:53:02,300 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/com/fasterxml/oss-parent/28/oss-parent-28.pom
+2019-04-22 14:53:02,532 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/com/fasterxml/jackson/core/jackson-core/2.9.0/jackson-core-2.9.0.pom
+2019-04-22 14:53:02,710 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/com/fasterxml/jackson/core/jackson-core/2.9.0/jackson-core-2.9.0.pom
+2019-04-22 14:53:02,945 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.pom
+2019-04-22 14:53:03,126 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.pom
+2019-04-22 14:53:03,381 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/com/fasterxml/jackson/core/jackson-databind/2.9.0/jackson-databind-2.9.0.pom
+2019-04-22 14:53:03,666 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/com/fasterxml/jackson/core/jackson-databind/2.9.0/jackson-databind-2.9.0.pom
+2019-04-22 14:53:03,889 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.9.0/jackson-module-jaxb-annotations-2.9.0.pom
+2019-04-22 14:53:04,067 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.9.0/jackson-module-jaxb-annotations-2.9.0.pom
+2019-04-22 14:53:04,361 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/com/fasterxml/jackson/module/jackson-modules-base/2.9.0/jackson-modules-base-2.9.0.pom
+2019-04-22 14:53:04,551 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/com/fasterxml/jackson/module/jackson-modules-base/2.9.0/jackson-modules-base-2.9.0.pom
+2019-04-22 14:53:04,924 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.pom
+2019-04-22 14:53:05,104 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.pom
+2019-04-22 14:53:05,372 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/com/fasterxml/woodstox/woodstox-core/5.0.3/woodstox-core-5.0.3.pom
+2019-04-22 14:53:05,568 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/com/fasterxml/woodstox/woodstox-core/5.0.3/woodstox-core-5.0.3.pom
+2019-04-22 14:53:05,874 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/com/fasterxml/oss-parent/24/oss-parent-24.pom
+2019-04-22 14:53:06,159 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/com/fasterxml/oss-parent/24/oss-parent-24.pom
+2019-04-22 14:53:07,345 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.9.0/jackson-dataformat-xml-2.9.0.jar
+2019-04-22 14:53:07,550 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.9.0/jackson-dataformat-xml-2.9.0.jar
+2019-04-22 14:53:08,775 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/com/fasterxml/jackson/core/jackson-core/2.9.0/jackson-core-2.9.0.jar
+2019-04-22 14:53:08,978 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/com/fasterxml/jackson/core/jackson-core/2.9.0/jackson-core-2.9.0.jar
+2019-04-22 14:53:09,794 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar
+2019-04-22 14:53:10,069 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar
+2019-04-22 14:53:10,244 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/com/fasterxml/jackson/core/jackson-databind/2.9.0/jackson-databind-2.9.0.jar
+2019-04-22 14:53:11,037 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/com/fasterxml/jackson/core/jackson-databind/2.9.0/jackson-databind-2.9.0.jar
+2019-04-22 14:53:11,524 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.9.0/jackson-module-jaxb-annotations-2.9.0.jar
+2019-04-22 14:53:11,737 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.9.0/jackson-module-jaxb-annotations-2.9.0.jar
+2019-04-22 14:53:12,551 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar
+2019-04-22 14:53:12,900 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar
+2019-04-22 14:53:14,235 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/com/fasterxml/woodstox/woodstox-core/5.0.3/woodstox-core-5.0.3.jar
+2019-04-22 14:53:14,403 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/com/fasterxml/woodstox/woodstox-core/5.0.3/woodstox-core-5.0.3.jar
+2019-04-22 14:53:18,326 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 14:53:18,330 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-22 14:53:18,332 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 14:53:18,332 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\github\Javase-middle\mavendemo\src\test\resources
+2019-04-22 14:53:21,143 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 14:53:21,148 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-22 14:53:21,161 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 14:53:21,162 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\github\Javase-middle\mavendemo\src\test\resources
+2019-04-22 15:00:30,675 [Worker-34] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.lucas.javase:mavendemo:0.0.1-SNAPSHOT @ D:\github\Javase-middle\mavendemo\pom.xml.
+2019-04-22 15:00:31,683 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/woodstox/woodstox-core-asl/4.4.1/woodstox-core-asl-4.4.1.pom
+2019-04-22 15:00:31,871 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/woodstox/woodstox-core-asl/4.4.1/woodstox-core-asl-4.4.1.pom
+2019-04-22 15:00:32,089 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.pom
+2019-04-22 15:00:32,242 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.pom
+2019-04-22 15:00:33,427 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/woodstox/woodstox-core-asl/4.4.1/woodstox-core-asl-4.4.1.jar
+2019-04-22 15:00:33,724 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/woodstox/woodstox-core-asl/4.4.1/woodstox-core-asl-4.4.1.jar
+2019-04-22 15:00:34,088 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar
+2019-04-22 15:00:34,264 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar
+2019-04-22 15:00:35,781 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 15:00:35,782 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-22 15:00:35,784 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 15:00:35,784 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\github\Javase-middle\mavendemo\src\test\resources
+2019-04-22 15:00:37,855 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 15:00:37,858 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-22 15:00:37,868 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 15:00:37,869 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\github\Javase-middle\mavendemo\src\test\resources
+2019-04-22 15:17:04,258 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.lucas.javase:mavendemo:0.0.1-SNAPSHOT @ D:\github\Javase-middle\mavendemo\pom.xml.
+2019-04-22 15:17:05,030 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/com/fasterxml/woodstox/woodstox-core/5.1.0/woodstox-core-5.1.0.pom
+2019-04-22 15:17:05,211 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/com/fasterxml/woodstox/woodstox-core/5.1.0/woodstox-core-5.1.0.pom
+2019-04-22 15:17:05,448 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/com/fasterxml/oss-parent/33/oss-parent-33.pom
+2019-04-22 15:17:05,624 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/com/fasterxml/oss-parent/33/oss-parent-33.pom
+2019-04-22 15:17:05,857 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/woodstox/stax2-api/4.1/stax2-api-4.1.pom
+2019-04-22 15:17:06,093 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/woodstox/stax2-api/4.1/stax2-api-4.1.pom
+2019-04-22 15:17:06,247 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/com/fasterxml/oss-parent/32/oss-parent-32.pom
+2019-04-22 15:17:06,464 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/com/fasterxml/oss-parent/32/oss-parent-32.pom
+2019-04-22 15:17:08,245 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/com/fasterxml/woodstox/woodstox-core/5.1.0/woodstox-core-5.1.0.jar
+2019-04-22 15:17:08,474 [Worker-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/com/fasterxml/woodstox/woodstox-core/5.1.0/woodstox-core-5.1.0.jar
+2019-04-22 15:17:09,010 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 15:17:09,011 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-22 15:17:09,013 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 15:17:09,014 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\github\Javase-middle\mavendemo\src\test\resources
+2019-04-22 15:17:10,570 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 15:17:10,572 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-22 15:17:10,579 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 15:17:10,579 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\github\Javase-middle\mavendemo\src\test\resources
+2019-04-22 15:17:43,785 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 15:17:43,786 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-22 15:17:43,788 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 15:17:43,789 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\github\Javase-middle\mavendemo\src\test\resources
+2019-04-22 15:18:42,516 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 15:18:42,518 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-22 15:18:42,520 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 15:18:42,520 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\github\Javase-middle\mavendemo\src\test\resources
+2019-04-22 15:22:57,544 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 15:22:57,565 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-22 15:22:57,567 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 15:22:57,568 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\github\Javase-middle\mavendemo\src\test\resources
+2019-04-22 15:24:08,108 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 15:24:08,111 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-22 15:24:08,118 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 15:24:08,119 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\github\Javase-middle\mavendemo\src\test\resources
+2019-04-22 15:30:53,062 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 15:30:53,064 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-22 15:30:53,067 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 15:30:53,067 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\github\Javase-middle\mavendemo\src\test\resources
+2019-04-22 15:31:18,680 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 15:31:18,682 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-22 15:31:18,685 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 15:31:18,686 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\github\Javase-middle\mavendemo\src\test\resources
