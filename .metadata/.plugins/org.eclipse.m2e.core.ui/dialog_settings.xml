@@ -58,6 +58,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.lucas.javase.maven_mybatis"/>
 			<item value="com.lucas.javase.mavendemo"/>
 			<item value="com.lucas.javase.mybatis.demo"/>
 		</list>
@@ -66,6 +67,7 @@
 			<item value="com.lucas.javase.mybatis"/>
 		</list>
 		<list key="artifactId">
+			<item value="maven_mybatis"/>
 			<item value="mavendemo"/>
 			<item value="demo"/>
 		</list>
