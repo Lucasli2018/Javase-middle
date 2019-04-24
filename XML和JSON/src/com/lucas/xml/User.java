@@ -45,14 +45,6 @@ public class User {
 	}
 	public User() {
 	}
-	/**
-	 * 
-	 * @param id id
-	 * @param username username
-	 * @param sex sex
-	 * @param birthday birthday
-	 * @param address address
-	 */
 	public User(int id, String username, String sex, String birthday, String address) {
 		super();
 		this.id = id;
@@ -61,6 +53,4 @@ public class User {
 		this.birthday = birthday;
 		this.address = address;
 	}
-	
-	
 }

@@ -16,8 +16,8 @@ public class Jackson {
 
 	public static void main(String[] args) {
 		try {
-			jacksonBean2XML();
-			//jacksonXML2Bean();
+			//jacksonBean2XML();
+			jacksonXML2Bean();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -35,10 +35,6 @@ public class Jackson {
 		XmlMapper xmlMapper = new XmlMapper();
 		xmlMapper.setDefaultUseWrapper(false);
 		User user=new User(1,"lucas","nan","2019-10-01","上海");
-		User user2=new User(2,"lucas","nan","2019-10-01","上海");
-		List<User> list=new ArrayList<>();
-		list.add(user);
-		list.add(user2);
 		String xml=xmlMapper.writeValueAsString(user);
 		System.out.println(xml);
 	}
