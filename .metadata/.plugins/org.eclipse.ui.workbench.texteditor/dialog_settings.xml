@@ -8,6 +8,7 @@
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="MappedStatement"/>
 			<item value="]"/>
 			<item value="["/>
 			<item value="Map&lt;Integer,Integer&gt; map=new HashMap&lt;&gt;();"/>
