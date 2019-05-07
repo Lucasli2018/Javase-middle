@@ -44,6 +44,8 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\github\Javase-middle\反射与泛型"/>
+			<item value="D:\github\Javase-middle\spring0507"/>
 			<item value="D:\github\Javase-middle\反射与泛型\src\com\lucas\javase\reflection\genericReflection\Main.java"/>
 			<item value="D:\github\Javase-middle\InputAndOutput\src\Input.java"/>
 		</list>
@@ -58,18 +60,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.lucas.javase.maven_mybatis"/>
-			<item value="com.lucas.javase.mavendemo"/>
-			<item value="com.lucas.javase.mybatis.demo"/>
 		</list>
 		<list key="groupId">
-			<item value="com.lucas.javase"/>
-			<item value="com.lucas.javase.mybatis"/>
 		</list>
 		<list key="artifactId">
-			<item value="maven_mybatis"/>
-			<item value="mavendemo"/>
-			<item value="demo"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
