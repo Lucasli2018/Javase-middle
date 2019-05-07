@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop 
+   		http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
+
+	<bean id='Battle' class="com.spring.service.Battle"></bean>
+	<bean id='BeforeTuanZhan' class="com.spring.service.BeforeTuanZhan"></bean>
+	<bean id='AfterTuanZhan' class="com.spring.service.AfterTuanZhan"></bean>
+	<bean id="TuanZhanException" class="com.spring.service.TuanZhanException"></bean>
+	<aop:config>
+		<!-- 定义所有可供露娜切入的点（方法） -->
+		<!-- 原则上只要时机正确，任何团战露娜都可以切进去！ -->
+		<aop:pointcut expression="execution(* com.spring.service.Battle.*(..))"
+			id="pointcut" />
+
+		<aop:advisor advice-ref="BeforeTuanZhan" pointcut-ref="pointcut" />
+		<aop:advisor advice-ref="AfterTuanZhan" pointcut-ref="pointcut" />
+		<aop:advisor advice-ref="TuanZhanException" pointcut-ref="pointcut" />
+	</aop:config>
+</beans>

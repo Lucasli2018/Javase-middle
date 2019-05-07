@@ -3783,3 +3783,29 @@
 2019-05-07 09:40:39,903 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2019-05-07 09:40:39,914 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-05-07 09:40:39,914 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\github\Javase-middle\mavendemo\src\test\resources
+2019-05-07 10:18:42,762 [Worker-27] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/aopalliance/aopalliance/1.0/aopalliance-1.0.pom
+2019-05-07 10:18:43,029 [Worker-27] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/aopalliance/aopalliance/1.0/aopalliance-1.0.pom
+2019-05-07 10:18:44,222 [Worker-27] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+2019-05-07 10:18:44,518 [Worker-27] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+2019-05-07 10:18:47,269 [Worker-31] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.lucas.javase:mavendemo:0.0.1-SNAPSHOT @ D:\github\Javase-middle\mavendemo\pom.xml.
+2019-05-07 10:18:47,904 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-07 10:18:47,911 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-07 10:18:47,913 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-07 10:18:47,914 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\github\Javase-middle\mavendemo\src\test\resources
+2019-05-07 10:18:48,538 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-07 10:18:48,540 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-05-07 10:18:48,545 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-07 10:18:48,545 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\github\Javase-middle\mavendemo\src\test\resources
+2019-05-07 10:20:03,082 [Worker-26] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.lucas.javase:mavendemo:0.0.1-SNAPSHOT @ D:\github\Javase-middle\mavendemo\pom.xml.
+2019-05-07 10:20:03,819 [Worker-26] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/aspectj/aspectjweaver/1.6.6/aspectjweaver-1.6.6.pom
+2019-05-07 10:20:04,016 [Worker-26] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/aspectj/aspectjweaver/1.6.6/aspectjweaver-1.6.6.pom
+2019-05-07 10:20:04,346 [Worker-26] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/aspectj/aspectjweaver/1.6.6/aspectjweaver-1.6.6.jar
+2019-05-07 10:20:06,352 [Worker-26] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/aspectj/aspectjweaver/1.6.6/aspectjweaver-1.6.6.jar
+2019-05-07 10:20:06,613 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-07 10:20:06,614 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-05-07 10:20:06,616 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-07 10:20:06,616 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\github\Javase-middle\mavendemo\src\test\resources
+2019-05-07 10:20:08,245 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-07 10:20:08,249 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-05-07 10:20:08,254 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-07 10:20:08,255 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\github\Javase-middle\mavendemo\src\test\resources
