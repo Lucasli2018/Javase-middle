@@ -1,3 +1,9 @@
 /.metadata/*
 .recommenders/*
 /demo/log/*.log
+/spring0507/.settings/*.jsdtscope
+/spring0507/.settings/*.prefs
+/spring0507/.settings/*.component
+/spring0507/.settings/*.xml
+/spring0507/.settings/*.container
+/spring0507/.settings/*.name

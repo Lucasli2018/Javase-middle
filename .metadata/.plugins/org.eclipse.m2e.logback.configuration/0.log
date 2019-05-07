@@ -3767,3 +3767,19 @@
 2019-04-26 10:51:03,146 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2019-04-26 10:51:03,159 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-04-26 10:51:03,159 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\github\Javase-middle\mavendemo\src\test\resources
+2019-05-07 09:40:35,006 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-07 09:40:35,145 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 11 resources
+2019-05-07 09:40:35,329 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-07 09:40:35,330 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-05-07 09:40:37,941 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-07 09:40:37,943 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-05-07 09:40:38,007 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-07 09:40:38,008 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\github\Javase-middle\maven_mybatis\src\test\resources
+2019-05-07 09:40:38,718 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-07 09:40:38,720 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-05-07 09:40:38,730 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-07 09:40:38,730 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\github\Javase-middle\mavenbmi\src\test\resources
+2019-05-07 09:40:39,902 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-07 09:40:39,903 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-05-07 09:40:39,914 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-05-07 09:40:39,914 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\github\Javase-middle\mavendemo\src\test\resources

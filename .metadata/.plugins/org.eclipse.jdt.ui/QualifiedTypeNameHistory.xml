@@ -1,28 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
-<fullyQualifiedTypeName name="org.junit.Test"/>
-<fullyQualifiedTypeName name="org.apache.commons.logging.LogFactory"/>
-<fullyQualifiedTypeName name="org.apache.commons.logging.Log"/>
-<fullyQualifiedTypeName name="org.junit.Before"/>
-<fullyQualifiedTypeName name="org.apache.ibatis.io.Resources"/>
-<fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSessionFactoryBuilder"/>
-<fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSessionFactory"/>
-<fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSession"/>
-<fullyQualifiedTypeName name="com.lucas.javase.maven_mybatis.po.User"/>
-<fullyQualifiedTypeName name="org.apache.ibatis.annotations.Insert"/>
-<fullyQualifiedTypeName name="org.apache.ibatis.annotations.Select"/>
-<fullyQualifiedTypeName name="org.apache.ibatis.annotations.ResultType"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
-<fullyQualifiedTypeName name="java.util.Map.Entry"/>
-<fullyQualifiedTypeName name="java.util.Map"/>
-<fullyQualifiedTypeName name="java.util.HashMap"/>
-<fullyQualifiedTypeName name="java.awt.event.FocusEvent"/>
-<fullyQualifiedTypeName name="javax.xml.parsers.DocumentBuilderFactory"/>
-<fullyQualifiedTypeName name="org.w3c.dom.Node"/>
-<fullyQualifiedTypeName name="javax.xml.parsers.SAXParserFactory"/>
-<fullyQualifiedTypeName name="org.xml.sax.helpers.DefaultHandler"/>
-<fullyQualifiedTypeName name="com.fasterxml.jackson.dataformat.xml.XmlMapper"/>
 <fullyQualifiedTypeName name="com.fasterxml.jackson.dataformat.xml.JacksonXmlModule"/>
 <fullyQualifiedTypeName name="com.lucas.xml.Jackson"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
@@ -46,8 +23,6 @@
 <fullyQualifiedTypeName name="com.lucas.gof.create.abstractFactory.AbstractFactory"/>
 <fullyQualifiedTypeName name="com.lucas.gof.create.abstractFactory.FactoryProducer"/>
 <fullyQualifiedTypeName name="com.lucas.gof.create.singleton.SingleObject"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="javax.tools.ForwardingFileObject"/>
 <fullyQualifiedTypeName name="com.lucas.gof.create.builder.Meal"/>
 <fullyQualifiedTypeName name="com.lucas.gof.create.builder.MealBuilder"/>
@@ -60,4 +35,29 @@
 <fullyQualifiedTypeName name="com.lucas.gof.create.builder.Drink"/>
 <fullyQualifiedTypeName name="com.lucas.gof.create.builder.Cola"/>
 <fullyQualifiedTypeName name="com.lucas.gof.create.builder.Pepsi"/>
+<fullyQualifiedTypeName name="java.util.Hashtable"/>
+<fullyQualifiedTypeName name="com.lucas.gof.create.prototype.ShapeCache"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="com.lucas.gof.create.prototype.Square"/>
+<fullyQualifiedTypeName name="java.io.ByteArrayOutputStream"/>
+<fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="java.io.ByteArrayInputStream"/>
+<fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.lucas.gof.structure.adapter.VlcPlayer"/>
+<fullyQualifiedTypeName name="com.lucas.gof.structure.adapter.Mp4Player"/>
+<fullyQualifiedTypeName name="com.lucas.gof.structure.adapter.MediaPlayer"/>
+<fullyQualifiedTypeName name="com.lucas.gof.structure.adapter.MediaAdapter"/>
+<fullyQualifiedTypeName name="com.lucas.gof.structure.adapter.AdvancedMediaPlayer"/>
+<fullyQualifiedTypeName name="com.lucas.gof.structure.adapter.AdvancedAbstractMediaPlayer"/>
+<fullyQualifiedTypeName name="com.lucas.gof.structure.bridge.DrawAPI"/>
+<fullyQualifiedTypeName name="com.lucas.gof.structure.bridge.Shape"/>
+<fullyQualifiedTypeName name="com.lucas.gof.structure.bridge.Circle"/>
+<fullyQualifiedTypeName name="com.lucas.gof.structure.bridge.RedShape"/>
+<fullyQualifiedTypeName name="com.lucas.gof.structure.filter.Criteria"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
