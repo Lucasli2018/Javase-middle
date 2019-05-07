@@ -1,19 +1,23 @@
 package com.springmvc.controller;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
-import org.springframework.web.servlet.mvc.Controller;
 
-public class HelloController implements Controller{
+//使用@Controller注解表示这个类是一个Handler
+@Controller
+public class HelloController {
 
-	@Override
-	public ModelAndView handleRequest(HttpServletRequest arg0, HttpServletResponse arg1) throws Exception {
-		ModelAndView modelView=new ModelAndView();
-		modelView.addObject("name","lcuas");
-        modelView.setViewName("index.jsp");
-        return modelView;
-	}
+  //@RequestMapping注解括号里面的表示访问的URL
+  @RequestMapping("hello")
+  public ModelAndView hello(){
+      ModelAndView modelView = new ModelAndView();
+      //类似于 request.setAttribute()
+      modelView.addObject("name","张三");
+      //配置返回的视图名，由于我们在springmvc.xml中配置了前缀和后缀，这里直接写视图名就好
+      modelView.setViewName("index");
+      //modelView.setViewName("/WEB-INF/view/index.jsp");
+      return modelView;
+  }
 
 }

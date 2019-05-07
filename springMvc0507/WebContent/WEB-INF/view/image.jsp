@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-hello:${name}
+	image${name}
+	<img alt="美女程序员" src="http://s9.rr.itc.cn/r/wapChange/201612_25_9/a9ihkh4134951340325.jpg">
 </body>
 </html>
