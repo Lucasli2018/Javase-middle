@@ -2,18 +2,20 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="}" key="selection"/>
+		<item value="reportPtlogin" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="reportPtlogin"/>
+			<item value="Mobile"/>
+			<item value="isMobile"/>
+			<item value="clickQQLoginTab"/>
 			<item value="MappedStatement"/>
 			<item value="]"/>
 			<item value="["/>
 			<item value="Map&lt;Integer,Integer&gt; map=new HashMap&lt;&gt;();"/>
-			<item value="ArrayList"/>
-			<item value="test.findUserByName"/>
 		</list>
 		<list key="replacehistory">
 			<item value="}"/>

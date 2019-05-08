@@ -28,6 +28,8 @@
 	<!--单个配置Handler -->
 	<bean class="com.springmvc.controller.HelloController"></bean>
 	<bean class="com.springmvc.controller.ImageController"></bean>
+	<bean class="com.springmvc.controller.LoginController"></bean>
+	
 
 	<!--批量配置Handler,指定扫描的包全称 -->
 	<!-- <context:component-scan base-package="com.springmvc.controller"></context:component-scan> -->
